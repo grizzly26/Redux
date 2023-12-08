@@ -1,0 +1,53 @@
+   .note-details {
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .note-details p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .edit-link,
+  .delete-button,
+  home-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #4caf50;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .edit-link:hover,
+  .delete-button:hover,
+  .home-link:hover {
+    border-color: #4caf50;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .back-link {
+    display: block;
+    color: #4caf50;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #45a049;
+  }
+  

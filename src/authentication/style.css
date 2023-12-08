@@ -1,0 +1,247 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+.rect {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+
+.my_button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my_button:hover {
+  background-color: #45a049;
+}
+
+span {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.home-container {
+  display: flex;
+  font-size: large;
+  font-family: Nanum Gothic, sans-serif;
+  text-align: left;
+  background-color: Lavender;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.home-greeting {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-info-container {
+  align-items: baseline;
+  padding: 7%;
+  margin-bottom: 20px;
+}
+
+.home-info {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.home-links-container {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-self: stretch;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.home-link {
+  color: #fff;
+  padding: 5px 10px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: rgb(154, 207, 177); 
+  color: white;
+}
+
+.home {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin:31px 0 10px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: rgb(154, 207, 177);
+  border: none;
+  opacity: 0.89;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.note-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px; 
+  padding: 0; 
+  list-style-type: none; }
+
+.notes-title {
+  text-align: center;
+}
+
+.note-list {
+  list-style: none;
+  margin-bottom: 2px;
+  padding: 0;
+  overflow-y: auto;
+}
+.note-list-item {
+  padding: 15px; 
+  margin-bottom: 20px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.note-list-item p {
+  margin: 0;
+  overflow-y: auto;
+}
+.note-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.note-actions {
+  display: flex;
+  align-items: center;
+}
+
+.note-list-link {
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.note-list-button {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note-list-button:hover {
+  background-color: red;
+  color: white;
+}
+input[type="text"],
+textarea {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+button,
+Link {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover,
+Link:hover {
+  background-color: #45a049;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(154, 207, 177);
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .footer-left {
+    margin-left: 10px;
+  }
+  .footer-right {
+    margin-right: 40px;
+  }
